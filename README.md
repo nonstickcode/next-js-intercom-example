@@ -18,22 +18,25 @@ cd your-project-name
 
 ### 1. Install Dependencies
 Install all the necessary dependencies using npm:
+```bash
 npm install
+```
 
 ### 3. Set Up Environment Variables
 Create a .env.local file in the root directory of your project, and add the following line:
+```bash
 NEXT_PUBLIC_INTERCOM_APP_ID=your_intercom_app_id_here
+```
 
 ### 4. Run the Development Server
 Start the development server by running:
-
+```bash
 npm run dev
+```
 # or
+```bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
 
 ### 4. Open http://localhost:3000 with your browser to see the result.
 You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
