@@ -10,7 +10,7 @@ Before you begin, ensure you have Node.js installed on your machine. You can dow
 ### 1. Clone the Repository
 To get started with this project, clone the repository to your local machine:
 ```bash
-git clone https://github.com/nonstickcode/next-s-intercom-example.git
+git clone https://github.com/nonstickcode/next-js-intercom-example.git
 ```
 ```bash
 cd your-project-name
