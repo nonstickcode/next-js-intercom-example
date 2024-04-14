@@ -23,8 +23,9 @@ npm install
 ```
 
 ### 3. Set Up Environment Variables
-Create a .env.local file in the root directory of your project, and add the following line:
+Create a .env.local file in the root directory of your project, and add the following lines:
 ```bash
+# Intercom App Id, found in URL when logged into intercom.com
 NEXT_PUBLIC_INTERCOM_APP_ID = "your_intercom_app_id_here"
 ```
 
