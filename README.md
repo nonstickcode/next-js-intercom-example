@@ -42,6 +42,8 @@ yarn dev
 ### 4. Open your browser to see the result:
 Visit [localhost:3000](http://localhost:3000)
 
+### NOTES:
+
 You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
 
 Learn More
