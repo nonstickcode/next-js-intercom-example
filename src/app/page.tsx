@@ -3,6 +3,7 @@ import styles from './page.module.css'
 import IntercomProviderWrapper from '@/app/intercom/intercom-provider-wrapper'
 import SessionProviderWrapper from '@/app/intercom/session-provider-wrapper'
 import UseIntercomUpdateWithProps from '@/app/intercom/use-intercom-operations'
+
 export default function Home() {
   return (
     <IntercomProviderWrapper>  {/* NOTE: This initializes intercom anywhere in app within opening and closing tags. */}
