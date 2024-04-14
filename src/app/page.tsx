@@ -2,11 +2,12 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import IntercomProviderWrapper from '@/app/intercom/intercom-provider-wrapper'
 import SessionProviderWrapper from '@/app/intercom/session-provider-wrapper'
-
+import UseIntercomUpdateWithProps from '@/app/intercom/use-intercom-operations'
 export default function Home() {
   return (
-    <IntercomProviderWrapper>
-      <SessionProviderWrapper>
+    <IntercomProviderWrapper>  {/* NOTE: This initializes intercom anywhere in app within opening and closing tags. */}
+      <SessionProviderWrapper>  {/* NOTE: This allows useSession() to access session data anywhere in app within opening and closing tags. */}
+        <UseIntercomUpdateWithProps />  {/* NOTE: This allows UseIntercomUpdateWithProps to hook into session data within the SessionProvider. */}
         <main className={styles.main}>
           <div className={styles.description}>
             <p>
