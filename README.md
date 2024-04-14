@@ -1,10 +1,29 @@
+# Next.js Intercom integration with bonus useSession() integration example.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Prerequisites
+Before you begin, ensure you have Node.js installed on your machine. You can download it from [Node.js website](https://nodejs.org/).
 
 ## Getting Started
 
-First, run the development server:
-
+### 1. Clone the Repository
+To get started with this project, clone the repository to your local machine:
 ```bash
+git clone https://github.com/your-username/your-project-name.git
+cd your-project-name
+
+### 1. Install Dependencies
+Install all the necessary dependencies using npm:
+npm install
+
+### 3. Set Up Environment Variables
+Create a .env.local file in the root directory of your project, and add the following line:
+NEXT_PUBLIC_INTERCOM_APP_ID=your_intercom_app_id_here
+
+### 4. Run the Development Server
+Start the development server by running:
+
 npm run dev
 # or
 yarn dev
@@ -12,30 +31,22 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Open http://localhost:3000 with your browser to see the result.
+You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
+Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js Documentation - learn about Next.js features and API.
+Learn Next.js - an interactive Next.js tutorial.
+You can check out the Next.js GitHub repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Deploy on Vercel
 
-## Deploy on Vercel
+The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Check out our Next.js deployment documentation for more details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-
-## Need to add a .env file to project
-# Intercom App Id, found in URL when logged into intercom.com
-NEXT_PUBLIC_INTERCOM_APP_ID = "actual_intercom_app-id"  
+This version includes the steps to clone the repository, install dependencies, set up environment variables, and run the development server, along with existing information about the project and learning resources.
