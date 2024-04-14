@@ -11,7 +11,10 @@ Before you begin, ensure you have Node.js installed on your machine. You can dow
 To get started with this project, clone the repository to your local machine:
 ```bash
 git clone https://github.com/your-username/your-project-name.git
+```
+```bash
 cd your-project-name
+```
 
 ### 1. Install Dependencies
 Install all the necessary dependencies using npm:
