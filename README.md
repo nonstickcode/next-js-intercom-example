@@ -1,4 +1,4 @@
-# Next.js Intercom integration with bonus useSession() integration example.
+# Next.js Intercom integration example with bonus useSession() example.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
